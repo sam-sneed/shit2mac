@@ -4,7 +4,7 @@ sudo apt-get install qemu uml-utilities virt-manager git \
     wget libguestfs-tools p7zip-full make dmg2img tesseract-ocr \
     tesseract-ocr-eng genisoimage -y
 
-git clone --depth 1 --recursive https://github.com/sam-sneed/OSX-KVM-highspec/tree/master
+git clone --depth 1 --recursive https://github.com/sam-sneed/OSX-KVM-highspec
 
 cd OSX-KVM-highspec
 
