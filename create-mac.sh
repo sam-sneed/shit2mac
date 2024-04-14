@@ -14,7 +14,7 @@ sudo usermod -aG kvm $(whoami)
 sudo usermod -aG libvirt $(whoami)
 sudo usermod -aG input $(whoami)
 
-./fetch-macOS-v2.py -s ventura --action download
+./fetch-macOS-v2.py -s ventura
 dmg2img -i "com.apple.recovery.boot/BaseSystem.dmg" BaseSystem.img
 
 qemu-img create -f qcow2 mac_hdd_ng.img "$hdd_size"G
